@@ -1,0 +1,14 @@
+# Swift Package Manager build output
+.build/
+.swiftpm/
+
+# The packaged app and generated icon (scripts/build.sh recreates them)
+build/
+
+# Xcode, if the package is opened there
+*.xcodeproj/
+xcuserdata/
+DerivedData/
+
+# macOS
+.DS_Store
